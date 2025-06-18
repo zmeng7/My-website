@@ -98,23 +98,91 @@ h2 {
 }
 
 #about-me p {
-  font-size: 25px;
+  font-size: 35px;
   color: rgb(128, 128, 128);
-  margin-top: -1cm;
+
 }
 
 .profile_image {
-  width: 550px;
+  width: 300px;
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
 }
+
+
+
+
+
+
+
+/* Experiences */
+
+.experiences {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+
+
+.experience {
+  margin: 0 15px 15px 30px;
+  padding-bottom: 5px;
+}
+
+.experience h6 {
+  font-size: 35px;
+  margin: 0 0 5px 30px;
+}
+
+.experience p {
+  font-size: 25px;
+  margin: 0 0 10px 30px;
+}
+
+
+.experience li {
+  font-size: 22px;
+  margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Skills */
 
 .all_skills {
   display: flex;
   flex-direction: row;
+
   flex-flow: wrap;
 }
 
@@ -123,7 +191,7 @@ h2 {
   display: block;
   border-radius: 6px;
   text-align: center;
-  margin: 50px;
+  margin: 20px;
   padding: 10px;
   width: 2in;
   font-size: 20px;
@@ -131,7 +199,7 @@ h2 {
 }
 
 .skill img {
-  height: 35px;
+  height: 75px;
   align-items: center;
 }
 
@@ -157,6 +225,9 @@ h2 {
   justify-content: center;
 }
 
+
+
+
 /* Projects */
 
 .projects-container {
@@ -176,14 +247,15 @@ h2 {
 }
 
 .project-card h3 {
-  font-size: 25px;
-  margin-left: 30px;
+  font-size: 30px;
+  margin: 0 0 5px 30px;
 }
 
-.project-card li {
-  font-size: 20px;
-  margin-left: 30px;
+.project-card p {
+  font-size: 25px;
+  margin: 0 0 10px 30px;
 }
+
 
 /* Recommendations */
 
